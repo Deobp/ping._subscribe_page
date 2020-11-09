@@ -1,0 +1,69 @@
+html,
+body {
+    text-align: center;
+}
+
+.ping-logo {
+    margin-top: 50px;
+}
+
+.ping-subscribe-content {
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+#ping-img {
+    width: 45%;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+}
+
+.ping-footer {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+
+.social-icons {
+    size: 15px;
+    font-size: 25px;
+    color: #2323d4de;
+    transition-duration: 0.7s;
+}
+
+.fa-instagram {
+    border-radius: 20px;
+    transition-duration: 0.7s;
+}
+
+.fa-instagram:hover {
+    background-color: #2323d4de;
+    color: white;
+}
+
+#email {
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    outline: 0;
+}
+
+#notify {
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    height: 45px;
+    width: 150px;
+    outline: 0;
+}
+
+#notify:hover {
+    background-color: mediumslateblue;
+    color: white;
+}
+
+.ping-illustration {
+    margin-top: 5%;
+}
