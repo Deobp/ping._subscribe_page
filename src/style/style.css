@@ -98,6 +98,11 @@ body {
     color: white;
 }
 
+#email-error {
+    color: red;
+    font-size: 15px;
+}
+
 .ping-illustration {
     margin-top: 4%;
 }
