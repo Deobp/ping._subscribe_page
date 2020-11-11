@@ -1,15 +1,12 @@
-html,
-body {
-    text-align: center;
-}
-
 .ping-logo {
     margin-top: 50px;
+    text-align: center;
 }
 
 .ping-subscribe-content {
     margin-top: 50px;
     font-size: 50px;
+    text-align: center;
 }
 
 #ping-img {
@@ -27,7 +24,6 @@ body {
 .social-icons {
     font-size: 25px;
     color: #4d7bf3;
-    transition-duration: 0.7s;
     border: 50px;
 }
 
