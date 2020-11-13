@@ -1,33 +1,72 @@
-.ping-logo {
-    margin-top: 50px;
-    text-align: center;
+header {
+    display: flex;
+    justify-content: center;
 }
 
 .ping-subscribe-form {
-    width: 475px;
     margin: auto;
 }
 
-.ping-subscribe-content {
+
+/* .ping-subscribe-content {
     margin-top: 50px;
     font-size: 50px;
-    text-align: center;
 }
+
+#email {
+    border-radius: 25px;
+     height: 40px;
+    width: 300px; 
+    height: 2em;
+    width: 15em;
+    outline: 0;
+    border-color: grey;
+    font-size: 20px;
+    color: grey;
+}
+
+#email-error {
+    color: red;
+}
+
+#notify {
+    border-radius: 25px;
+    background-color: #4d7bf3;
+    border-color: transparent;
+    color: white;
+    transition-duration: 0.4s;
+    height: 45px;
+    width: 150px; 
+    height: 3em;
+    width: 15em;
+    outline: 0;
+    font-size: 15px;
+}
+
+#notify:hover {
+    background-color: rgb(120, 155, 243);
+    color: white;
+}
+
+*/
 
 .ping-illustration {
     margin-top: 4%;
 }
 
+
+/*
 #ping-img {
     margin-top: 0px;
     max-width: 35%;
     max-height: 35%;
 }
 
+
+
+
 .ping-footer {
-    position: absolute;
     bottom: 0;
-    text-align: center;
     width: 100%;
 }
 
@@ -52,39 +91,4 @@
     border-radius: 100px;
     font-size: 40px;
     color: white;
-}
-
-#email {
-    border-radius: 25px;
-    height: 40px;
-    width: 300px;
-    outline: 0;
-    border-color: grey;
-    text-align: center;
-    font-size: 20px;
-    color: grey;
-}
-
-#email-error {
-    color: red;
-    font-size: 15px;
-    text-align: left;
-    margin-left: 30px;
-}
-
-#notify {
-    border-radius: 25px;
-    background-color: #4d7bf3;
-    border-color: transparent;
-    color: white;
-    transition-duration: 0.4s;
-    height: 45px;
-    width: 150px;
-    outline: 0;
-    font-size: 15px;
-}
-
-#notify:hover {
-    background-color: rgb(120, 155, 243);
-    color: white;
-}
+} */
