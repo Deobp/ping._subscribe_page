@@ -1,94 +1,31 @@
-header {
-    display: flex;
-    justify-content: center;
+body {
+    min-width: 200px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
-.ping-subscribe-form {
-    margin: auto;
+.ping-logo {
+    max-width: 86px;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 
-
-/* .ping-subscribe-content {
-    margin-top: 50px;
-    font-size: 50px;
+.ping-subscribe-content {
+    max-width: 500px;
+    font-size: 1.45em;
+    margin: 0 auto;
 }
 
-#email {
-    border-radius: 25px;
-     height: 40px;
-    width: 300px; 
-    height: 2em;
-    width: 15em;
-    outline: 0;
-    border-color: grey;
-    font-size: 20px;
+h2 {
+    font-size: inherit;
+}
+
+#launch-text {
     color: grey;
 }
 
-#email-error {
-    color: red;
-}
-
-#notify {
-    border-radius: 25px;
-    background-color: #4d7bf3;
-    border-color: transparent;
-    color: white;
-    transition-duration: 0.4s;
-    height: 45px;
-    width: 150px; 
-    height: 3em;
-    width: 15em;
-    outline: 0;
-    font-size: 15px;
-}
-
-#notify:hover {
-    background-color: rgb(120, 155, 243);
-    color: white;
-}
-
-*/
-
-.ping-illustration {
-    margin-top: 4%;
-}
-
-
-/*
 #ping-img {
-    margin-top: 0px;
-    max-width: 35%;
-    max-height: 35%;
+    max-width: 100%;
 }
-
-
-
-
-.ping-footer {
-    bottom: 0;
-    width: 100%;
-}
-
-.social-icons {
-    font-size: 25px;
-    color: #4d7bf3;
-    border: 50px;
-}
-
-.fa-facebook,
-.fa-twitter,
-.fa-instagram {
-    border-radius: 360%;
-    transition-duration: 0.7s;
-    background-color: white;
-}
-
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-instagram:hover {
-    background-color: #4d7bf3;
-    border-radius: 100px;
-    font-size: 40px;
-    color: white;
-} */

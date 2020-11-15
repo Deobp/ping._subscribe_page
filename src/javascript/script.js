@@ -7,14 +7,14 @@ emailField.addEventListener("click", emailValidation);
 
 pingForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    if (!/[\\]/g.test(emailField.value) || !/@.+/g.test(emailField.value)) {
-        error.removeAttribute("hidden");
-        console.log('a')
-        emailField.value = "";
-    } else {
-        console.log('b')
-        error.setAttribute("hidde", true);
-    }
+    // if (!/[\\]/g.test(emailField.value) || !/@.+/g.test(emailField.value)) {
+    //     error.removeAttribute("hidden");
+    //     console.log('a')
+    //     emailField.value = "";
+    // } else {
+    //     console.log('b')
+    //     error.setAttribute("hidde", true);
+    //}
 
 
 })
@@ -35,3 +35,4 @@ function emailValidation() {
 // sa@\gmail.com
 //[^.]+[@.+]
 //.+[^\/]@.+
+//.+@.+[.][a-zA-z0-9]+
