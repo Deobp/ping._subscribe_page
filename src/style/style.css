@@ -13,13 +13,27 @@ body {
 }
 
 .ping-subscribe-content {
-    max-width: 500px;
+    width: 573px;
     font-size: 1.45em;
     margin: 0 auto;
 }
 
 h2 {
     font-size: inherit;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+#email {
+    border-radius: 25px;
+    width: 30em;
+    height: 3em;
+}
+
+#notify {
+    border-radius: 25px;
+    width: 12em;
+    height: 3em;
 }
 
 #launch-text {
@@ -28,4 +42,19 @@ h2 {
 
 #ping-img {
     max-width: 100%;
+    margin-top: 20%;
+}
+
+.ping-footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.social-icons {
+    max-width: 50px;
+    margin: 0 auto;
+}
+
+.ping-copyright {
+    margin: 0 auto;
 }
