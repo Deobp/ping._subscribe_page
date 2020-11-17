@@ -33,6 +33,7 @@ h1 {
     height: 3em;
     border: solid 0.5px hsl(221, 29%, 89%);
     outline: none;
+    padding-left: 5%;
 }
 
 #notify {
@@ -75,8 +76,8 @@ h1 {
     text-align: center;
 }
 
-.social-icons {
-    color: hsl(223, 87%, 63%)
+.social-icons a {
+    color: hsl(223, 87%, 63%);
 }
 
 .fa-facebook:hover,
