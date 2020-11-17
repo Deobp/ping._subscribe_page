@@ -3,7 +3,8 @@ body {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
 }
 
 .ping-logo {
@@ -14,26 +15,43 @@ body {
 
 .ping-subscribe-content {
     width: 573px;
-    font-size: 1.45em;
     margin: 0 auto;
 }
 
-h2 {
-    font-size: inherit;
-    max-width: 280px;
-    margin: 0 auto;
+h1 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#subscribe-text {
+    text-align: center;
 }
 
 #email {
     border-radius: 25px;
     width: 30em;
     height: 3em;
+    border: solid 0.5px hsl(221, 29%, 89%);
+    outline: none;
 }
 
 #notify {
     border-radius: 25px;
     width: 12em;
     height: 3em;
+    border: solid 0.5px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    outline: none;
+}
+
+#notify:hover {
+    background-color: hsl(223, 100%, 88%);
+}
+
+#email-error {
+    color: hsl(354, 100%, 66%);
+    font-weight: 700;
 }
 
 #launch-text {
@@ -43,18 +61,33 @@ h2 {
 #ping-img {
     max-width: 100%;
     margin-top: 20%;
+    margin-bottom: 25%;
 }
 
-.ping-footer {
-    position: absolute;
-    bottom: 0px;
-}
+.ping-footer {}
 
 .social-icons {
-    max-width: 50px;
+    max-width: 60px;
     margin: 0 auto;
 }
 
 .ping-copyright {
-    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons {
+    color: hsl(223, 87%, 63%)
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border-radius: 50px;
+    transition-duration: 0.4s;
+}
+
+.ping-copyright {
+    color: hsl(0, 0%, 59%)
 }
