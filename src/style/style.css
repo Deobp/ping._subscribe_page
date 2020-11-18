@@ -1,7 +1,7 @@
 body,
 html {
     min-width: 200px;
-    max-width: 600px;
+    max-width: 650px;
     width: 100%;
     margin: 0 auto;
     font-family: 'Libre Franklin', sans-serif;
@@ -30,12 +30,12 @@ h1 {
 
 .ping-subscribe-form {
     margin-top: 5%;
-    width: 630px;
+    width: 100%;
 }
 
 #email {
     border-radius: 25px;
-    width: 30em;
+    width: 60%;
     height: 4em;
     border: solid 0.5px hsl(221, 29%, 89%);
     outline: none;
