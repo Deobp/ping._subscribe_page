@@ -14,13 +14,14 @@ body {
 }
 
 .ping-subscribe-content {
-    width: 573px;
+    width: 750px;
     margin: 0 auto;
 }
 
 h1 {
     margin-bottom: 0px;
     text-align: center;
+    font-weight: 300;
 }
 
 #subscribe-text {
@@ -54,6 +55,8 @@ h1 {
     color: hsl(354, 100%, 66%);
     font-weight: 700;
     font-style: italic;
+    font-size: 12px;
+    padding-left: 5%;
 }
 
 #launch-text {
@@ -68,7 +71,7 @@ h1 {
 .ping-footer {}
 
 .social-icons {
-    max-width: 60px;
+    max-width: 80px;
     margin: 0 auto;
 }
 
@@ -78,15 +81,20 @@ h1 {
 
 .social-icons a {
     color: hsl(223, 87%, 63%);
+    /*paddin */
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-instagram:hover {
+.social-icons i {
+    color: hsl(223, 87%, 63%);
+    padding: 5%;
+    background-color: white;
+}
+
+.social-icons i:hover {
     color: white;
     background-color: hsl(223, 87%, 63%);
     border-radius: 50px;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
 }
 
 .ping-copyright {
