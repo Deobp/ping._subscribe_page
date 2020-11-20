@@ -40,6 +40,7 @@ h1 {
     border: solid 0.5px hsl(221, 29%, 89%);
     outline: none;
     padding-left: 5%;
+    padding-right: 5%;
 }
 
 #notify {
