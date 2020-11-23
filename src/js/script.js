@@ -5,6 +5,8 @@ let error = document.getElementById("email-error")
 
 emailField.addEventListener("click", emailValidation);
 
+
+//Node.insertBefore() !!!!!! для добавление элемента перед каким-то узлом а не в конец списка(для ошибки)
 pingForm.addEventListener("submit", (event) => {
     event.preventDefault();
     // if (!/[\\]/g.test(emailField.value) || !/@.+/g.test(emailField.value)) {

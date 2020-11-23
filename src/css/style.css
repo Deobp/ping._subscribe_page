@@ -1,5 +1,4 @@
-body,
-html {
+body {
     min-width: 200px;
     max-width: 650px;
     width: 100%;
@@ -91,6 +90,7 @@ h1 {
 
 .social-icons a {
     color: hsl(223, 87%, 63%);
+    display: inline-block;
 }
 
 .ping-copyright {
@@ -101,4 +101,18 @@ h1 {
     color: white;
     background-color: hsl(223, 87%, 63%);
     border-radius: 50px;
+}
+
+@media screen and (max-width: 645px) {
+    #email,
+    #notify {
+        display: block;
+        margin: 0 auto;
+    }
+    #notify {
+        margin-top: 5%;
+    }
+    #email-error {
+        text-align: center;
+    }
 }
