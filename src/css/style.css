@@ -79,7 +79,7 @@ h1 {
 }
 
 .social-icons {
-    max-width: 80px;
+    width: 120px;
     margin: 0 auto;
 }
 
@@ -91,6 +91,14 @@ h1 {
 .social-icons a {
     color: hsl(223, 87%, 63%);
     display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 14px;
 }
 
 .ping-copyright {
@@ -100,7 +108,6 @@ h1 {
 .social-icons a:hover {
     color: white;
     background-color: hsl(223, 87%, 63%);
-    border-radius: 50px;
 }
 
 @media screen and (max-width: 645px) {
