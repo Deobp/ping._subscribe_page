@@ -9,14 +9,13 @@ emailField.addEventListener("click", emailValidation);
 //Node.insertBefore() !!!!!! для добавление элемента перед каким-то узлом а не в конец списка(для ошибки)
 pingForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    // if (!/[\\]/g.test(emailField.value) || !/@.+/g.test(emailField.value)) {
-    //     error.removeAttribute("hidden");
-    //     console.log('a')
-    //     emailField.value = "";
-    // } else {
-    //     console.log('b')
-    //     error.setAttribute("hidde", true);
-    //}
+    if (/.+@.+[.][a-zA-z0-9]+/g.test(emailField.value) || (emailField.value).inlcudes("\\")) {
+        error.removeAttribute("hidden");
+        emailField.value = "";
+    } else {
+        alert(`${emailField.value}`)
+        error.setAttribute("hidde", true);
+    }
 
 
 })

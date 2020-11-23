@@ -91,14 +91,14 @@ h1 {
 .social-icons a {
     color: hsl(223, 87%, 63%);
     display: inline-block;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     text-align: center;
 }
 
 .social-icons i {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .ping-copyright {
